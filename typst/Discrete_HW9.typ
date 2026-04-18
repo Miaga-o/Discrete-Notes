@@ -41,7 +41,7 @@ $
   &= (n! k!) / (k! (n-k)! r! (k-r)!) "by multiplication" \
   &= n! / ((n-k)! r! (k-r)!) "by canceling out" k! \
   &= n! / (r! (n-k)! (k-r)!) "by commutative property"\
-  &= (n! (n-r)!) / (r!(n-r!)(n-k)!(k-r)!) "by multiplying by" 1=(n-r)! / (n-r)! \
+  &= (n! (n-r)!) / (r!(n-r)!(n-k)!(k-r)!) "by multiplying by" 1=(n-r)! / (n-r)! \
   &= n! / (r! (n-r)!) dot (n-r)! / ((k-r)! (n-k)! ) "by commutative property" \
   &= n! / (r! (n-r)!) dot (n-r)! / ((k-r)! (n-r-k+r)! ) "by adding" 0=r-r "to" (n-k)! \
   &= n! / (r! (n-r)!) dot (n-r)! / ((k-r)! (n-r-(k-r))! ) "by distributive property" \
